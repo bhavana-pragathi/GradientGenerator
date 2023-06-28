@@ -21,7 +21,7 @@ const gradientDirectionsList = [
 // Write your code here
 class GradientGenerator extends Component {
   state = {
-    currentGradientDirection: gradientDirectionsList.directionId[0],
+    currentGradientDirection: gradientDirectionsList[0].directionId,
     fromColor: '#8ae323',
     toColor: '#014f7b',
     gradientVal: `to ${gradientDirectionsList[0].value}, #8ae323, #014f7b`,
