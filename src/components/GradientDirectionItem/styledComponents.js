@@ -10,6 +10,7 @@ export const Button = styled.button`
   width: 80px;
   font-size: 12px;
   color: #1e293b;
+  opacity: 1;
 `
 export const ItemDiv = styled.div`
   display: flex;
